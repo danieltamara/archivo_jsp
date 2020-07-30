@@ -1,0 +1,307 @@
+
+cidra@DESKTOP-172NUJG MINGW64 ~
+$ git config --global -l
+user.email=danieltamara@gmail.com
+user.name=daniel
+
+cidra@DESKTOP-172NUJG MINGW64 ~
+$ git config --global -l
+user.email=danieltamara@gmail.com
+user.name=daniel
+
+cidra@DESKTOP-172NUJG MINGW64 ~
+$ pwd
+/c/Users/cidra
+
+cidra@DESKTOP-172NUJG MINGW64 ~
+$ cd onedrive
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive
+$ cd atom
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom
+$ cd html
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html
+$ ls
+estilos/  html/  Imagenes/  java/
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html
+$ git init
+Initialized empty Git repository in C:/Users/cidra/OneDrive/Atom/HTML/.git/
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Imagenes/
+        estilos/
+        html/
+        java/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Imagenes/
+        estilos/
+        html/
+        java/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git add .
+warning: LF will be replaced by CRLF in estilos/css/bootstrap-grid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in estilos/css/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in estilos/css/bootstrap-reboot.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in estilos/css/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in estilos/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in estilos/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in java/js/bootstrap.bundle.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in java/js/bootstrap.bundle.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in java/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in java/js/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in java/js/jquery-3.5.1.min.js.
+The file will have its original line endings in your working directory
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Imagenes/descarga.jpg
+        new file:   Imagenes/p1.jpg
+        new file:   Imagenes/p2.jpg
+        new file:   Imagenes/p3.jpg
+        new file:   Imagenes/p4.jpg
+        new file:   Imagenes/p5.jpg
+        new file:   Imagenes/santafe.jpg
+        new file:   estilos/bootstrap-4.4.1-dist.zip
+        new file:   estilos/css/bootstrap-grid.css
+        new file:   estilos/css/bootstrap-grid.css.map
+        new file:   estilos/css/bootstrap-grid.min.css
+        new file:   estilos/css/bootstrap-grid.min.css.map
+        new file:   estilos/css/bootstrap-reboot.css
+        new file:   estilos/css/bootstrap-reboot.css.map
+        new file:   estilos/css/bootstrap-reboot.min.css
+        new file:   estilos/css/bootstrap-reboot.min.css.map
+        new file:   estilos/css/bootstrap.css
+        new file:   estilos/css/bootstrap.css.map
+        new file:   estilos/css/bootstrap.min.css
+        new file:   estilos/css/bootstrap.min.css.map
+        new file:   estilos/css/tamara.css
+        new file:   estilos/registro.css
+        new file:   estilos/santafe.css
+        new file:   estilos/tamara.css
+        new file:   html/Index.html
+        new file:   html/Registro.html
+        new file:   html/tamara.html
+        new file:   java/js/Index___575ed7eaa840b76___.html
+        new file:   java/js/bootstrap.bundle.js
+        new file:   java/js/bootstrap.bundle.js.map
+        new file:   java/js/bootstrap.bundle.min.js
+        new file:   java/js/bootstrap.bundle.min.js.map
+        new file:   java/js/bootstrap.js
+        new file:   java/js/bootstrap.js.map
+        new file:   java/js/bootstrap.min.js
+        new file:   java/js/bootstrap.min.js.map
+        new file:   java/js/jquery-3.5.1.min.js
+        new file:   java/validar.js
+
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git commit
+[master (root-commit) 99c0492] "mi primer commit"
+ 38 files changed, 26898 insertions(+)
+ create mode 100644 Imagenes/descarga.jpg
+ create mode 100644 Imagenes/p1.jpg
+ create mode 100644 Imagenes/p2.jpg
+ create mode 100644 Imagenes/p3.jpg
+ create mode 100644 Imagenes/p4.jpg
+ create mode 100644 Imagenes/p5.jpg
+ create mode 100644 Imagenes/santafe.jpg
+ create mode 100644 estilos/bootstrap-4.4.1-dist.zip
+ create mode 100644 estilos/css/bootstrap-grid.css
+ create mode 100644 estilos/css/bootstrap-grid.css.map
+ create mode 100644 estilos/css/bootstrap-grid.min.css
+ create mode 100644 estilos/css/bootstrap-grid.min.css.map
+ create mode 100644 estilos/css/bootstrap-reboot.css
+ create mode 100644 estilos/css/bootstrap-reboot.css.map
+ create mode 100644 estilos/css/bootstrap-reboot.min.css
+ create mode 100644 estilos/css/bootstrap-reboot.min.css.map
+ create mode 100644 estilos/css/bootstrap.css
+ create mode 100644 estilos/css/bootstrap.css.map
+ create mode 100644 estilos/css/bootstrap.min.css
+ create mode 100644 estilos/css/bootstrap.min.css.map
+ create mode 100644 estilos/css/tamara.css
+ create mode 100644 estilos/registro.css
+ create mode 100644 estilos/santafe.css
+ create mode 100644 estilos/tamara.css
+ create mode 100644 html/Index.html
+ create mode 100644 html/Registro.html
+ create mode 100644 html/tamara.html
+ create mode 100644 java/js/Index___575ed7eaa840b76___.html
+ create mode 100644 java/js/bootstrap.bundle.js
+ create mode 100644 java/js/bootstrap.bundle.js.map
+ create mode 100644 java/js/bootstrap.bundle.min.js
+ create mode 100644 java/js/bootstrap.bundle.min.js.map
+ create mode 100644 java/js/bootstrap.js
+ create mode 100644 java/js/bootstrap.js.map
+ create mode 100644 java/js/bootstrap.min.js
+ create mode 100644 java/js/bootstrap.min.js.map
+ create mode 100644 java/js/jquery-3.5.1.min.js
+ create mode 100644 java/validar.js
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   html/Index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git diff
+diff --git a/html/Index.html b/html/Index.html
+index 3f8c7f5..34fcc55 100644
+--- a/html/Index.html
++++ b/html/Index.html
+@@ -7,7 +7,7 @@
+   <meta name="Primer campeon" content="Santafe de Colombia ">
+   <meta name="viewport" content="width=device-width, initial-scale">
+   </meta>
+-  <meta name="Independiente Santafe " content="Bogota D.C">
++
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <link rel="stylesheet" href="/estilos/santafe.css">
+
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git restore
+fatal: you must specify path(s) to restore
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git checkout .
+Updated 1 path from the index
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git log
+commit 99c04921e858d35a774ce4f398206e9f4dc7d11f (HEAD -> master)
+Author: daniel <danieltamara@gmail.com>
+Date:   Tue Jul 28 12:39:25 2020 -0500
+
+    "mi primer commit"
+[master be43b4b] "me segundo commit "
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git log .
+commit be43b4b6dac53d43054aa1c03e1e0d43b5c3739d (HEAD -> master)
+Author: daniel <danieltamara@gmail.com>
+Date:   Tue Jul 28 13:37:57 2020 -0500
+
+    "me segundo commit "
+
+commit 99c04921e858d35a774ce4f398206e9f4dc7d11f
+Author: daniel <danieltamara@gmail.com>
+Date:   Tue Jul 28 12:39:25 2020 -0500
+
+    "mi primer commit"
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git hepl
+git: 'hepl' is not a git command. See 'git --help'.
+
+The most similar command is
+        help
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git help .
+El sistema no puede encontrar el archivo C:/Program Files/Git/mingw64/share/doc/git-doc/git..html.
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git help commit
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git commit --amend
+[master bc117db] "me gundo commit modificasion del mensaje del commit "
+ Date: Tue Jul 28 13:37:57 2020 -0500
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git log
+commit bc117dbb21bb87b1dc2301f76e188e1a41cd9d8e (HEAD -> master)
+Author: daniel <danieltamara@gmail.com>
+Date:   Tue Jul 28 13:37:57 2020 -0500
+
+    "me gundo commit modificasion del mensaje del commit "
+
+commit 99c04921e858d35a774ce4f398206e9f4dc7d11f
+Author: daniel <danieltamara@gmail.com>
+Date:   Tue Jul 28 12:39:25 2020 -0500
+
+    "mi primer commit"
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git mv tamara.html tama.html
+fatal: bad source, source=tamara.html, destination=tama.html
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git branch
+* master
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git branch daniel
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$ git branch
+  daniel
+* master
+
+cidra@DESKTOP-172NUJG MINGW64 ~/onedrive/atom/html (master)
+$
